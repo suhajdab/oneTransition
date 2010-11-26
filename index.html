@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>oneTransition</title>
+		<link rel="stylesheet" type="text/css" href="onetransition.css" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+		<script type="text/javascript" src="onetransition.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			document.body.className = 'js';
+		</script>
+		<div id="container">
+			<img alt="" src="http://farm5.static.flickr.com/4068/4497822898_95d2a9b3a2.jpg" />
+			<img alt="" src="http://farm3.static.flickr.com/2787/4497825412_288306a107.jpg" />
+			<img alt="" src="http://farm5.static.flickr.com/4017/4497188113_dee81140dc.jpg" />
+			<img alt="" src="http://farm3.static.flickr.com/2742/4497836994_543201feb9.jpg" />
+			<img alt="" src="http://farm3.static.flickr.com/2788/4497217275_9a59b02ba0.jpg" />
+			<img alt="" src="http://farm3.static.flickr.com/2736/4497222613_6fcd66d703.jpg" />
+			<img alt="" src="http://farm5.static.flickr.com/4046/4497233377_d9a7953a3f.jpg" />
+		</div>
+		
+		<script type="text/javascript">
+			$( window ).load( function () {
+				$( '#container' ).oneTransition();
+			});
+		</script>
+	</body>
+</html>

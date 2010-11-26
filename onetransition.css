@@ -1,0 +1,18 @@
+body.js #container {
+	position: relative;
+	width: 500px;
+	height: 281px;
+	margin: auto;
+	overflow: hidden;
+}
+
+body.js #container img {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+body.js #container img:first-child {
+	display: block;
+}
