@@ -1,0 +1,15 @@
+oneTransiton jquery plugin
+
+Plugin will slideshow through images inside container using circular transition in different variations.
+
+Sample markup:
+	<div id="container">
+		<img alt="" src="...jpg" />
+		<img alt="" src="...jpg" />
+		<img alt="" src="...jpg" />
+	</div>
+	
+Simplest init:
+	$( '#container' ).oneTransition();
+
+by Balázs Suhajda @ onereason, 2010-11-26
